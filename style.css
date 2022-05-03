@@ -121,3 +121,21 @@ select {
   background: white;
   color: #ff6f47;
 }
+.input__div {
+  display: flex;
+  justify-content: center;
+}
+/* MEDIA QUERY */
+@media screen and (max-width: 648px) {
+  form {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 472px) {
+  form input {
+    width: 50%;
+  }
+  select {
+    width: auto;
+  }
+}
